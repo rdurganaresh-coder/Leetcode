@@ -1,35 +1,110 @@
-## 📚 Topics Overview
+# 🚀 LeetCode Solutions & Study Tracker (Problems 801–900)
 
-| Topic | Total | Easy | Medium | Hard |
-| :--- | :---: | :---: | :---: | :---: |
-| [Arrays & Hashing](#arrays-hashing-101) | **101** | 22 | 54 | 25 |
-| [Backtracking](#backtracking-0) | **0** | 0 | 0 | 0 |
-| [Binary Search](#binary-search-0) | **0** | 0 | 0 | 0 |
-| [Design](#design-0) | **0** | 0 | 0 | 0 |
-| [Dynamic Programming](#dynamic-programming-0) | **0** | 0 | 0 | 0 |
-| [Graphs & BFS/DFS](#graphs-bfsdfs-0) | **0** | 0 | 0 | 0 |
-| [Greedy](#greedy-0) | **0** | 0 | 0 | 0 |
-| [Heap / Priority Queue](#heap-priority-queue-0) | **0** | 0 | 0 | 0 |
-| [Intervals](#intervals-1) | **1** | 0 | 1 | 0 |
-| [Linked List](#linked-list-0) | **0** | 0 | 0 | 0 |
-| [Math & Bit Manipulation](#math-bit-manipulation-0) | **0** | 0 | 0 | 0 |
-| [Matrix](#matrix-0) | **0** | 0 | 0 | 0 |
-| [Sliding Window](#sliding-window-0) | **0** | 0 | 0 | 0 |
-| [Stack](#stack-0) | **0** | 0 | 0 | 0 |
-| [Strings](#strings-0) | **0** | 0 | 0 | 0 |
-| [Trees](#trees-0) | **0** | 0 | 0 | 0 |
-| [Trie](#trie-0) | **0** | 0 | 0 | 0 |
-| [Two Pointers](#two-pointers-0) | **0** | 0 | 0 | 0 |
-| **Total** | **102** | **22** | **55** | **25** |
+![Total Problems](https://img.shields.io/badge/Total-100-blue?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-23-brightgreen?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-51-orange?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-26-red?style=flat-square)
+
+> Curated **LeetCode Problems 801–900** repository tracker. Organized by **Topic → Difficulty → Problem ID**.
 
 ---
 
-### Topic-Wise Problem Breakdown
-
-#### Arrays & Hashing (101)
-* **Easy (22):** [905. Sort Array By Parity](https://leetcode.comsort-array-by-parity/), [908. Smallest Range I](https://leetcode.comsmallest-range-i/), [914. X of a Kind in a Deck of Cards](https://leetcode.comx-of-a-kind-in-a-deck-of-cards/), [917. Reverse Only Letters](https://leetcode.comreverse-only-letters/), [922. Sort Array By Parity II](https://leetcode.comsort-array-by-parity-ii/), [925. Long Pressed Name](https://leetcode.comlong-pressed-name/), [929. Unique Email Addresses](https://leetcode.comunique-email-addresses/), [933. Number of Recent Calls](https://leetcode.comnumber-of-recent-calls/), [938. Range Sum of BST](https://leetcode.comrange-sum-of-bst/), [941. Valid Mountain Array](https://leetcode.comvalid-mountain-array/), [942. DI String Match](https://leetcode.comdi-string-match/), [944. Delete Columns to Make Sorted](https://leetcode.comdelete-columns-to-make-sorted/), [953. Verifying an Alien Dictionary](https://leetcode.comverifying-an-alien-dictionary/), [961. N-Repeated Element in Size 2N Array](https://leetcode.comn-repeated-element-in-size-2n-array/), [965. Univalued Binary Tree](https://leetcode.comunivalued-binary-tree/), [509. Fibonacci Number](https://leetcode.comfibonacci-number/), [976. Largest Perimeter Triangle](https://leetcode.comlargest-perimeter-triangle/), [977. Squares of a Sorted Array](https://leetcode.comsquares-of-a-sorted-array/), [989. Add to Array-Form of Integer](https://leetcode.comadd-to-array-form-of-integer/), [993. Cousins in Binary Tree](https://leetcode.comcousins-in-binary-tree/), [997. Find the Town Judge](https://leetcode.comfind-the-town-judge/), [999. Available Captures for Rook](https://leetcode.comavailable-captures-for-rook/)
-* **Medium (54):** [900. RLE Iterator](https://leetcode.comrle-iterator/), [901. Online Stock Span](https://leetcode.comonline-stock-span/), [904. Fruit Into Baskets](https://leetcode.comfruit-into-baskets/), [907. Sum of Subarray Minimums](https://leetcode.comsum-of-subarray-minimums/), [909. Snakes and Ladders](https://leetcode.comsnakes-and-ladders/), [910. Smallest Range II](https://leetcode.comsmallest-range-ii/), [911. Online Election](https://leetcode.comonline-election/), [912. Sort an Array](https://leetcode.comsort-an-array/), [915. Partition Array into Disjoint Intervals](https://leetcode.compartition-array-into-disjoint-intervals/), [916. Word Subsets](https://leetcode.comword-subsets/), [918. Maximum Sum Circular Subarray](https://leetcode.commaximum-sum-circular-subarray/), [919. Complete Binary Tree Inserter](https://leetcode.comcomplete-binary-tree-inserter/), [921. Minimum Add to Make Parentheses Valid](https://leetcode.comminimum-add-to-make-parentheses-valid/), [923. 3Sum With Multiplicity](https://leetcode.com3sum-with-multiplicity/), [926. Flip String to Monotone Increasing](https://leetcode.comflip-string-to-monotone-increasing/), [930. Binary Subarrays With Sum](https://leetcode.combinary-subarrays-with-sum/), [931. Minimum Falling Path Sum](https://leetcode.comminimum-falling-path-sum/), [932. Beautiful Array](https://leetcode.combeautiful-array/), [934. Shortest Bridge](https://leetcode.comshortest-bridge/), [935. Knight Dialer](https://leetcode.comknight-dialer/), [937. Reorder Data in Log Files](https://leetcode.comreorder-data-in-log-files/), [939. Minimum Area Rectangle](https://leetcode.comminimum-area-rectangle/), [945. Minimum Increment to Make Array Unique](https://leetcode.comminimum-increment-to-make-array-unique/), [946. Validate Stack Sequences](https://leetcode.comvalidate-stack-sequences/), [947. Most Stones Removed with Same Row or Column](https://leetcode.commost-stones-removed-with-same-row-or-column/), [948. Bag of Tokens](https://leetcode.combag-of-tokens/), [949. Largest Time for Given Digits](https://leetcode.comlargest-time-for-given-digits/), [950. Reveal Cards In Increasing Order](https://leetcode.comreveal-cards-in-increasing-order/), [951. Flip Equivalent Binary Trees](https://leetcode.comflip-equivalent-binary-trees/), [954. Array of Doubled Pairs](https://leetcode.comarray-of-doubled-pairs/), [955. Delete Columns to Make Sorted II](https://leetcode.comdelete-columns-to-make-sorted-ii/), [957. Prison Cells After N Days](https://leetcode.comprison-cells-after-n-days/), [958. Check Completeness of a Binary Tree](https://leetcode.comcheck-completeness-of-a-binary-tree/), [959. Regions Cut By Slashes](https://leetcode.comregions-cut-by-slashes/), [962. Maximum Width Ramp](https://leetcode.commaximum-width-ramp/), [963. Minimum Area Rectangle II](https://leetcode.comminimum-area-rectangle-ii/), [966. Vowel Spellchecker](https://leetcode.comvowel-spellchecker/), [967. Numbers With Same Consecutive Differences](https://leetcode.comnumbers-with-same-consecutive-differences/), [969. Pancake Sorting](https://leetcode.compancake-sorting/), [970. Powerful Integers](https://leetcode.compowerful-integers/), [971. Flip Binary Tree To Match Preorder Traversal](https://leetcode.comflip-binary-tree-to-match-preorder-traversal/), [973. K Closest Points to Origin](https://leetcode.comk-closest-points-to-origin/), [974. Subarray Sums Divisible by K](https://leetcode.comsubarray-sums-divisible-by-k/), [978. Longest Turbulent Subarray](https://leetcode.comlongest-turbulent-subarray/), [979. Distribute Coins in Binary Tree](https://leetcode.comdistribute-coins-in-binary-tree/), [981. Time Based Key-Value Store](https://leetcode.comtime-based-key-value-store/), [983. Minimum Cost For Tickets](https://leetcode.comminimum-cost-for-tickets/), [984. String Without AAA or BBB](https://leetcode.comstring-without-aaa-or-bbb/), [985. Sum of Even Numbers After Queries](https://leetcode.comsum-of-even-numbers-after-queries/), [988. Smallest String Starting From Leaf](https://leetcode.comsmallest-string-starting-from-leaf/), [990. Satisfiability of Equality Equations](https://leetcode.comsatisfiability-of-equality-equations/), [991. Broken Calculator](https://leetcode.combroken-calculator/), [994. Rotting Oranges](https://leetcode.comrotting-oranges/), [998. Maximum Binary Tree II](https://leetcode.commaximum-binary-tree-ii/)
-* **Hard (25):** [902. Numbers At Most N Given Digit Set](https://leetcode.comnumbers-at-most-n-given-digit-set/), [903. Valid Permutations for DI Sequence](https://leetcode.comvalid-permutations-for-di-sequence/), [906. Super Palindromes](https://leetcode.comsuper-palindromes/), [913. Cat and Mouse](https://leetcode.comcat-and-mouse/), [920. Number of Music Playlists](https://leetcode.comnumber-of-music-playlists/), [924. Minimize Malware Spread](https://leetcode.comminimize-malware-spread/), [927. Three Equal Parts](https://leetcode.comthree-equal-parts/), [928. Minimize Malware Spread II](https://leetcode.comminimize-malware-spread-ii/), [936. Stamping The Sequence](https://leetcode.comstamping-the-sequence/), [940. Distinct Subsequences II](https://leetcode.comdistinct-subsequences-ii/), [943. Find the Shortest Superstring](https://leetcode.comfind-the-shortest-superstring/), [952. Largest Component Size by Common Factor](https://leetcode.comlargest-component-size-by-common-factor/), [956. Tallest Billboard](https://leetcode.comtallest-billboard/), [960. Delete Columns to Make Sorted III](https://leetcode.comdelete-columns-to-make-sorted-iii/), [964. Least Operators to Express Number](https://leetcode.comleast-operators-to-express-number/), [968. Binary Tree Cameras](https://leetcode.combinary-tree-cameras/), [972. Equal Rational Numbers](https://leetcode.comequal-rational-numbers/), [975. Odd Even Jump](https://leetcode.comodd-even-jump/), [980. Unique Paths III](https://leetcode.comunique-paths-iii/), [982. Triples with Bitwise AND Equal To Zero](https://leetcode.comtriples-with-bitwise-and-equal-to-zero/), [987. Vertical Order Traversal of a Binary Tree](https://leetcode.comvertical-order-traversal-of-a-binary-tree/), [992. Subarrays with K Different Integers](https://leetcode.comsubarrays-with-k-different-integers/), [995. Minimum Number of K Consecutive Bit Flips](https://leetcode.comminimum-number-of-k-consecutive-bit-flips/), [996. Number of Squareful Arrays](https://leetcode.comnumber-of-squareful-arrays/), [1000. Minimum Cost to Merge Stones](https://leetcode.comminimum-cost-to-merge-stones/)
-
-#### Intervals (1)
-* **Medium (1):** [986. Interval List Intersections](https://leetcode.cominterval-list-intersections/)
+900	RLE Iterator	Medium	
+901	Online Stock Span	Medium	
+902	Numbers At Most N Given Digit Set	Hard	
+903	Valid Permutations for DI Sequence	Hard	
+904	Fruit Into Baskets	Medium	
+905	Sort Array By Parity	Easy	
+906	Super Palindromes	Hard	
+907	Sum of Subarray Minimums	Medium	
+908	Smallest Range I	Easy	
+909	Snakes and Ladders	Medium	
+910	Smallest Range II	Medium	
+911	Online Election	Medium	
+912	Sort an Array	Medium	
+913	Cat and Mouse	Hard	
+914	X of a Kind in a Deck of Cards	Easy	
+915	Partition Array into Disjoint Intervals	Medium	
+916	Word Subsets	Medium	
+917	Reverse Only Letters	Easy	
+918	Maximum Sum Circular Subarray	Medium	
+919	Complete Binary Tree Inserter	Medium	
+920	Number of Music Playlists	Hard	
+921	Minimum Add to Make Parentheses Valid	Medium	
+922	Sort Array By Parity II	Easy	
+923	3Sum With Multiplicity	Medium	
+924	Minimize Malware Spread	Hard	
+925	Long Pressed Name	Easy	
+926	Flip String to Monotone Increasing	Medium	
+927	Three Equal Parts	Hard	
+928	Minimize Malware Spread II	Hard	
+929	Unique Email Addresses	Easy	
+930	Binary Subarrays With Sum	Medium	
+931	Minimum Falling Path Sum	Medium	
+932	Beautiful Array	Medium	
+933	Number of Recent Calls	Easy	
+934	Shortest Bridge	Medium	
+935	Knight Dialer	Medium	
+936	Stamping The Sequence	Hard	
+937	Reorder Data in Log Files	Medium	
+938	Range Sum of BST	Easy	
+939	Minimum Area Rectangle	Medium	
+940	Distinct Subsequences II	Hard	
+941	Valid Mountain Array	Easy	
+942	DI String Match	Easy	
+943	Find the Shortest Superstring	Hard	
+944	Delete Columns to Make Sorted	Easy	
+945	Minimum Increment to Make Array Unique	Medium	
+946	Validate Stack Sequences	Medium	
+947	Most Stones Removed with Same Row or Column	Medium	
+948	Bag of Tokens	Medium	
+949	Largest Time for Given Digits	Medium	
+950	Reveal Cards In Increasing Order	Medium	
+951	Flip Equivalent Binary Trees	Medium	
+952	Largest Component Size by Common Factor	Hard	
+953	Verifying an Alien Dictionary	Easy	
+954	Array of Doubled Pairs	Medium	
+955	Delete Columns to Make Sorted II	Medium	
+956	Tallest Billboard	Hard	
+957	Prison Cells After N Days	Medium	
+958	Check Completeness of a Binary Tree	Medium	
+959	Regions Cut By Slashes	Medium	
+960	Delete Columns to Make Sorted III	Hard	
+961	N-Repeated Element in Size 2N Array	Easy	
+962	Maximum Width Ramp	Medium	
+963	Minimum Area Rectangle II	Medium	
+964	Least Operators to Express Number	Hard	
+965	Univalued Binary Tree	Easy	
+966	Vowel Spellchecker	Medium	
+967	Numbers With Same Consecutive Differences	Medium	
+968	Binary Tree Cameras	Hard	
+969	Pancake Sorting	Medium	
+970	Powerful Integers	Medium	
+971	Flip Binary Tree To Match Preorder Traversal	Medium	
+972	Equal Rational Numbers	Hard	
+509	Fibonacci Number	Easy	
+973	K Closest Points to Origin	Medium	
+974	Subarray Sums Divisible by K	Medium	
+975	Odd Even Jump	Hard	
+976	Largest Perimeter Triangle	Easy	
+977	Squares of a Sorted Array	Easy	
+978	Longest Turbulent Subarray	Medium	
+979	Distribute Coins in Binary Tree	Medium	
+980	Unique Paths III	Hard	
+981	Time Based Key-Value Store	Medium	
+982	Triples with Bitwise AND Equal To Zero	Hard	
+983	Minimum Cost For Tickets	Medium	
+984	String Without AAA or BBB	Medium	
+985	Sum of Even Numbers After Queries	Medium	
+986	Interval List Intersections	Medium	
+987	Vertical Order Traversal of a Binary Tree	Hard	
+988	Smallest String Starting From Leaf	Medium	
+989	Add to Array-Form of Integer	Easy	
+990	Satisfiability of Equality Equations	Medium	
+991	Broken Calculator	Medium	
+992	Subarrays with K Different Integers	Hard	
+993	Cousins in Binary Tree	Easy	
+994	Rotting Oranges	Medium	
+995	Minimum Number of K Consecutive Bit Flips	Hard	
+996	Number of Squareful Arrays	Hard	
+997	Find the Town Judge	Easy	
+998	Maximum Binary Tree II	Medium	
+999	Available Captures for Rook	Easy	
+1000	Minimum Cost to Merge Stones	Hard	
